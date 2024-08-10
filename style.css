@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+   font-family: 'Poppins', sans-serif;
+}
+body{
+   background: lightblue;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   
+
+}
+.container{
+   position:relative;
+   width: 100%;
+   max-width: 1200px;
+   min-height:1200px;
+   background: white;
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   box-shadow: 0 35px 55px rgba(red, green, blue, alpha);
+   margin: 0px
+}
+.container .left_side{
+   position: relative;
+   background: violet;
+   padding: 30px
+}
+.profileText{
+   position: relative;
+   display:flex;
+   flex-direction:column;
+   align-items: center;
+   padding-bottom:25px;
+   border-bottom: 5px solid rgba(255, 255, 255, 0.2);
+}
+.container .right_side{
+   position: relative;
+   background: whitesmoke;
+   padding: 30px
+}
+.profileText .logo{
+   margin-top: 10px;
+   margin-left: 200px;
+}
+footer .meme{
+   margin-top: 10px;
+   margin-left: 200px;
+}
+footer {
+   margin-top: 10px;
+   margin-left: 20px;
+   /* height: 4px;
+   width: 4px; */
+}
+
+.profileText h2{
+   color: darkmagenta;
+   font-size: 1.5em;
+   margin-top:20px;
+   margin-left: 200px;
+   text-transform: uppercase;
+   text-align: center;
+   font-weight:600;
+   line-height:1.4em;
+
+   
+}
+.profileText h2 span{
+  
+   font-size: 0.7em;
+   font-weight:300;
+  
+   
+}
+.contact{
+   padding-top: 40px;
+}
+.titles{
+   color: white;
+   text-transform: uppercase;
+   font-weight: 600;
+   letter-spacing: 1px;
+   margin-bottom: 20px ;
+
+
+}
+.contact ul{
+   position:relative;
+}
+.contact ul li{
+   position:relative;
+   list-style: none;
+   margin: 10px 0;
+   cursor: pointer;
+}
+.contact ul li .icon{
+   display: inline-block;
+   width:30px;
+   font-size: 20px;
+   color:blue
+}
+.contact span{
+   color: white;
+   font-size: 13px;
+   font-weight:200;
+}
+.edu li{
+   margin-bottom: 5px;
+}
+.edu h5{
+   color:blue;
+   font-weight:300;
+}
+.edu h4{
+   color:white;
+   font-weight:100;
+   font-size: 15px;
+}
+.edu h4:nth-child(2)
+{
+   color: white;
+   font-weight:500;
+   font-size: 15px;
+}
+.lang .percent{
+   position: relative;
+   width:100%;
+   height: 6px;
+   background: black;
+   display: block;
+   margin-top: 5px;
+}
+.lang .percent div{
+   position:absolute;
+   top:0;
+   left:0;
+   height:100%;
+   background: blue;
+
+}
+.profile{
+   margin-bottom: 50px;
+}
+.titless{
+   margin-bottom: 0px;
+   color:blueviolet;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   margin-bottom: 10px;
+}
+p{
+   color:grey;
+}
+.profile .left_right{
+   display: flex;
+   flex-direction: row;
+   margin: 20px 0;
+}
+.profile .left_right .left{
+ min-width: 150px;  
+}
+.profile .left_right .left h5{
+ text-transform: uppercase;
+ color:grey;
+ font-weight: 600;
+}
+.profile .left_right .right h4{
+text-transform: uppercase;
+color: black;
+font-size: 16px;
+}
+.skill .lefts{
+   position: relative;
+   width:100%;
+   display:grid;
+   grid-template-columns: 150px 1fr;
+   justify-content: center;
+   align-items: center;
+
+}
+.skill .lefts h4{
+   text-transform: uppercase;
+   color:grey;
+   font-weight: 500;
+}
+.skill .lefts .bar{
+   position: relative;
+   width: 100%;
+   height:10px;
+   background:grey;
+
+}
+.skill .lefts .bar div{
+   position:absolute;
+   top:0;
+   left:0;
+   height:100%;
+   background: blue;
+}
+.interests ul{
+   display:grid;
+   grid-template-columns: repeat(4,1fr);
+
+}
+.interests ul li{
+   list-style: none;
+   font-weight: 300;
+   color:black;
+   margin: 10px 0;
+
+}
+.interests ul li .fa{
+   
+   color:blue;
+   font-size: 18px;
+   width: 20px;
+
+}
+nav{
+   background: purple;
+   height:50px;
+   width:100%;
+}
+nav ul{
+   float:right;
+   margin: right 20px;
+
+}
+nav ul li{
+   display: inline-block;
+   line-height: 50px;
+   margin: 0 5px;
+}
+nav ul li a{
+   color:purple;
+   font-size: 12px;
+   padding:7px 13px;
+   border-radius: 3px;
+   text-transform: uppercase;
+   
+
+}
+a.active{
+   background: lightpink;
+   transition: 0.5s;
+}
+a:hover{
+   background: white;
+   transition: 0.5s;
+}
+.checkbtn{
+   font-size: 30px;
+   color:white;
+   float:right;
+   line-height:80px;
+   margin-right:40px;
+}
